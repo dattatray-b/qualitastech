@@ -25,6 +25,64 @@ tr:nth-child(odd) {
     background-color: #dddddd;
 }
 
+.currentorg{
+    margin: 20px;
+}
+
+
+.education{
+    position: relative;
+    display: none;
+}
+
+.academics{
+    cursor: pointer;
+    top:0;
+    left: 0;
+    transition: transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* @media only screen(min-width:360px){
     body{
         min-width: 360px;
@@ -35,7 +93,7 @@ tr:nth-child(odd) {
     }
 } */
 
-@media (min-width:360px){
+/* @media (min-width:360px){
     body{
         min-width: 360px;
         margin-left: 25%;
@@ -47,4 +105,4 @@ tr:nth-child(odd) {
     .summary{
         display: inline-block;
     }
-}
+} */
