@@ -1,0 +1,50 @@
+body{
+    max-width: 700px;
+    margin-left: 25%;
+    display: flex;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.basicinfo{
+    line-height: 6px;
+}
+
+h3{
+    background-color: rgb(216,245,248);
+}
+
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+/* @media only screen(min-width:360px){
+    body{
+        min-width: 360px;
+        margin-left: 25%;
+        display: flex;
+        border: 1px solid black;
+        padding: 1%;
+    }
+} */
+
+@media (min-width:360px){
+    body{
+        min-width: 360px;
+        margin-left: 25%;
+        display: flex;
+        border: 1px solid black;
+        padding: 1%;
+    }
+
+    .summary{
+        display: inline-block;
+    }
+}
